@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import './App.css';
-import { useEffect } from 'react';
 import axios from 'axios';
 
 const App = () => {
@@ -18,8 +17,6 @@ const App = () => {
         }
       }
   
-
-
   return (
     <div className="App">
       <div className="contenedor-pokemon">
